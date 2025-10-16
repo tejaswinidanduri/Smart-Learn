@@ -1,36 +1,20 @@
-# Smart-Learn
-AI-powered Learning Management System built with React, TypeScript, Tailwind CSS, and Google Gemini API
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-### 🧠 Team Name:
-Cloud Storms
+# Run and deploy your AI Studio app
 
-### 👩‍💻 Team Members:
-- Tejaswini Danduri
-- Chashmitha V
-- Tejaswini V
-- Pranathi
+This contains everything you need to run your app locally.
 
-### 💻 Tech Stack:
-- React + TypeScript  
-- Tailwind CSS  
-- Google Gemini API  
-- LocalStorage for data persistence
+View your app in AI Studio: https://ai.studio/apps/drive/1L3Zr52wIZ0I90sdiVTDzNE0lN-hmeQVW
 
-### 🚀 Features:
-- Smart LMS dashboard with AI-powered course suggestions  
-- Course details & content generation using Gemini API  
-- Quiz generation from course material  
-- Persistent user data with LocalStorage  
-- Responsive design with animated gradients and glassmorphic UI  
-- AI-Enhanced Video Learning
+## Run Locally
 
-### 🌐 Hosted Link:
-[https://tejaswinidanduri.github.io/smart-learn/](https://tejaswinidanduri.github.io/smart-learn/)
+**Prerequisites:**  Node.js
 
-### 📂 GitHub Repository:
-[https://github.com/tejaswinidanduri/smart-learn](https://github.com/tejaswinidanduri/smart-learn)
 
-### 📌 Instructions to Run Locally:
-1. Clone the repository:  
-```bash
-git clone https://github.com/tejaswinidanduri/smart-learn.git
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
